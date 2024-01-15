@@ -1,21 +1,20 @@
-title: Hello, world! I'm Michael Tai
+title: I'm Michael Tai
 description: > # this means to ignore newlines until "baseurl:"
-  The creative space for Michael Tai to explore the world. Understanding tech,
+  The creative space for Michael Tai to explore the world, understanding tech,
     people and the unexpected
 permalink: ':title/'
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-site-twitter: #if your site has a twitter account, enter it here
 
 # Author Settings
 author: Michael Tai # add your name
 author-img: realmtai.JPG # add your photo
 about-author: This is the creative space to showcase any of my work # add description
-social-twitter: # add your Twitter handle
-social-facebook: # add your Facebook handle
-social-github: # add your Github handle
-social-linkedin: # add your Linkedin handle
-social-email: # add your Email address
+social-insta: realmtai # add your instagram handle
+social-appstore: download-the-bear-corp/id572368722 # add your Apple App Store handle
+social-github: realmtai # add your Github handle
+social-linkedin: michael-tai-bba99860 # add your Linkedin handle
+social-email: info@realmtai.com # add your Email address
 
 # Disqus
 discus-identifier: realmtai # add your discus identifier
