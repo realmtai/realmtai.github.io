@@ -1,0 +1,79 @@
+---
+layout: post
+title: "12v power! All about transfer 12v to Work"
+date: 2024-08-25 00:00:00 +0300
+description: this post will give you some ideas on how to attach a trolling
+    motor onto a paddleboard and power it
+img: 12v-power.jpg # Add image post (optional)
+tags: [diy, creatives] # add tag
+---
+
+# The core of the idea is: Do some work with the battery
+In this case, we want to spin a trolling motor from the battery.
+
+We will showcase 3 types of builds
+- Basic: The minimum setup to spin the motor
+- Medium: A good setup and battery health level
+- Lots of Ports: A setup with lots of power for any needs
+
+# The Basics Build
+
+Steps:
+- Charge up the battery
+- Positive to positive, negative to negative, the motor should turn on.
+
+Items:
+
+| ITEM                                                    | PICTURE      | PRICING: EST ~$400 |
+| Battery Charger: search for `lifepo4 charger`           | ![][charger] | ~$50 to ~$100      |
+| 12v battery: search for `lifepo4 20ah`                  | ![][battery] | ~$100 to ~$300     |
+| Trolling motor: Any motor with 12v input should be fine | ![][motor]   | ~$100 to ~$1000    |
+
+# The medium Build
+
+Steps:
+- Charge up the battery
+- Follow manufacture’s instruction to setup the BMS
+- Battery <-> BMS <-> trolling motor
+
+Items
+
+| ITEM                                                             | PICTURE      | PRICING: EST ~$500 |
+| Battery Charger: search for `lifepo4 charger`                    | ![][charger] | ~$50 to ~$100      |
+| 12v battery: search for `lifepo4 100ah`                          | ![][battery] | ~$100 to ~$300     |
+| Battery Monitor System(BMS): search for `renogy battery monitor` | ![][bms]     | ~$140              |
+| Trolling motor: Any motor with 12v input should be fine          | ![][motor]   | ~$100 to ~$1000    |
+
+
+
+# The Build with 6 cigarette ports and power protection
+
+Steps:
+- Charge up the battery
+- Follow manufacture’s instruction to setup the BMS
+- Build the Power Distribution box
+- Battery <-> BMS <-> Power Distribution box <-> Cigarette USB adopter
+
+Items:
+
+| ITEM                                                                                                          | PICTURE       | PRICING: EST ~$600 |
+| Battery Charger: search for `lifepo4 charger`                                                                 | ![][charger]  | ~$50 to ~$100      |
+| 12v battery: search for `lifepo4 100ah`                                                                       | ![][battery]  | ~$250 to ~$600     |
+| Battery Monitor System(BMS): search for `renogy battery monitor`                                              | ![][bms]      | ~$140              |
+| Project case: pick up an ammo storage containers from process auto. or search for `ammo storage container`    | ![][projBox]  | ~$20 to ~$50       |
+| Car Jumper Cable: 2ga or 4ga jumper cable is recommended, this can be purchased online or any car parts store | ![][jumper]   | ~$50               |
+| 12v cigarette female port: search for `female cigarette lighter socket`                                       | ![][12fPort]  | ~$20               |
+| Power Distribution board: search for `12v fusebox`                                                            | ![][powerBox] | ~$40               |
+| Cigarette USB adopter: search for `Cigarette USB adapter`                                                     | ![][5vPort]   | ~$20               |
+
+
+
+[battery]: /assets/img/12vPower/08-25-2024_10-10-01_battery.jpg
+[motor]: /assets/img/12vPower/08-25-2024_10-18-29_motor.jpg
+[charger]: /assets/img/12vPower/08-25-2024_10-34-46_charger.jpg
+[bms]: /assets/img/12vPower/08-25-2024_10-43-13_bms.jpg
+[projBox]: /assets/img/12vPower/08-25-2024_10-52-42_storage.jpg
+[jumper]: /assets/img/12vPower/08-25-2024_10-56-21_jumper.png
+[12fPort]: /assets/img/12vPower/08-25-2024_10-59-33_12vport.jpg
+[powerBox]: /assets/img/12vPower/08-25-2024_11-01-45_powerBox.jpg
+[5vPort]: /assets/img/12vPower/08-25-2024_11-04-36_usb.jpg
