@@ -3,8 +3,7 @@ layout: post
 title: "Setting Up a Fully Offline LLM with Pi Code"
 date: 2026-05-25 00:00:00 +0300
 description: Learn how to set up and run a fully offline local LLM using the Pi framework
-img: assets/img/offline_llm/inspired.png
-cover: /offline_llm/cover_image.jpeg
+img: offline_llm/cover_image.jpeg
 tags: [ai, offline, llm, pi] # add tag
 ---
 
