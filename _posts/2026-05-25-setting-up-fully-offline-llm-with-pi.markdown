@@ -3,13 +3,14 @@ layout: post
 title: "Setting Up a Fully Offline LLM with Pi Code"
 date: 2026-05-25 00:00:00 +0300
 description: Learn how to set up and run a fully offline local LLM using the Pi framework
-img: # Add image post (optional)
+img: assets/img/offline_llm/inspired.png
+cover: assets/img/offline_llm/cover_image.jpeg
 tags: [ai, offline, llm, pi] # add tag
 ---
 
-## Motivation
+## Motivation: this 👇 inspired me! You can build this too!
 
-![Inspiration](assets/img/offline_llm/inspired.png)
+![][inspired]
 
 This image inspired me to explore the world of fully offline local LLMs. Seeing the potential of running powerful language models entirely on local hardware without relying on cloud services opened my eyes to the possibilities of privacy-first AI. The concept of having complete control over my AI infrastructure, without data leaving my machine, resonated deeply with my values around privacy and self-sufficiency.
 
@@ -240,3 +241,5 @@ export OPENAI_API_KEY=""
 export OPENAI_BASE_URL="http://127.0.0.1:${PORT}/v1"
 pi
 ```
+
+[inspired]: /assets/img/offline_llm/inspired.png
