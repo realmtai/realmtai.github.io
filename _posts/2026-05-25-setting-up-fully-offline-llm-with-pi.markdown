@@ -71,7 +71,7 @@ brew install llama.cpp
 The AI coding agent framework used to interact with the local LLM.
 
 ```bash
-bun uninstall -g @earendil-works/pi-coding-agent
+bun add -g --ignore-scripts @earendil-works/pi-coding-agent
 ```
 
 [https://pi.dev/docs/latest/quickstart](https://pi.dev/docs/latest/quickstart)
