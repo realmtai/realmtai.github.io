@@ -7,8 +7,6 @@ description: "Maximize 3D printer utilization by implementing a low-cost automat
 categories: prototype automation
 ---
 
-# Rapid Automated Prototype Creation
-
 ![Automated Setup](/assets/img/automated_3d_prints/setup.webp)
 
 3D printing has revolutionized the way we iterate on physical designs, allowing for rapid prototyping that was previously impossible. However, scaling this process remains a significant challenge. While the printing speed itself is often sufficient, the overall throughput is hampered by the need for manual intervention at the most inconvenient times—specifically, the transition between prints.

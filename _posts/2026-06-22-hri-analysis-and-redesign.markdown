@@ -7,8 +7,6 @@ author: Michael Tai
 categories: [Robotics, HRI, Healthcare]
 ---
 
-# Human–Robot Interaction Analysis and Redesign
-
 ## Summary
 This post analyzes the Human-Robot Interaction (HRI) of the Moxi robot, an autonomous assistant deployed in healthcare settings to alleviate nursing workloads. Despite its design goals, the Moxi system encountered significant usability and reliability issues, often becoming a burden to the staff it was intended to support.
 
