@@ -1,16 +1,21 @@
-<section class="comment-area">
-  <div class="comment-wrapper">
-    {% if site.discus-identifier %}
-    <div id="disqus_thread" class="article-comments"></div>
-    <script>
-      (function() {
-          var d = document, s = d.createElement('script');
-          s.src = '//{{ site.discus-identifier }}.disqus.com/embed.js';
-          s.setAttribute('data-timestamp', +new Date());
-          (d.head || d.body).appendChild(s);
-      })();
-    </script>
-    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-    {% endif %}
-  </div>
-</section> <!-- End Comment Area -->
+ <!-- Gitalk comment start  -->
+
+ <!-- Link Gitalk  -->
+ <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+ <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+ <div id="gitalk-container"></div>
+ <script type="text/javascript">
+     var gitalk = new Gitalk({
+
+     // Gitalk parameters
+         clientID: 'Ov23lih2cc8f1aHtGLjW', //customize
+         clientSecret: '4d6d5421aadea5bb5f278b6e2687474eec22bf95', //customize
+         repo: 'realmtai.github.io', //customize
+         owner: 'realmtai', //customize
+         admin: ['realmtai'], //customize
+         id: window.location.pathname, // leave this line as it is
+
+     });
+     gitalk.render('gitalk-container');
+ </script>
+ <!-- Gitalk end -->
